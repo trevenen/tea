@@ -14,8 +14,8 @@ parser.add_argument("-t", "--type", help="The type of tea to brew", type=str, ch
 args = parser.parse_args()
 
 teas = {
-	'white': (192, 3),
-  'white': (160, 3),
+	'chai': (192, 3),
+	'white': (160, 3),
 	'green': (175, 3),
 	'oolong': (185, 3),
 	'black': (200, 4),
